@@ -93,6 +93,9 @@ GarnetNetwork::GarnetNetwork(const Params &p)
 
         // initialize the router's network pointers
         router->init_net_ptr(this);
+
+        // Read the ring routing table from the configuration
+        router->init_ring_routing_table(m_routing_algorithm);
     }
 
     // record the network interfaces

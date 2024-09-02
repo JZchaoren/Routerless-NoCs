@@ -1,0 +1,1380 @@
+Pair (0, 4):
+  Ring 4: Length = 1
+  Ring 5: Length = 1
+  Ring 2: Length = 9
+  Ring 8: Length = 9
+  Ring 6: Length = 11
+
+Pair (0, 8):
+  Ring 4: Length = 2
+  Ring 8: Length = 8
+  Ring 6: Length = 10
+
+Pair (0, 12):
+  Ring 4: Length = 3
+  Ring 8: Length = 7
+
+Pair (0, 1):
+  Ring 2: Length = 1
+  Ring 6: Length = 1
+  Ring 8: Length = 1
+  Ring 4: Length = 11
+  Ring 5: Length = 11
+
+Pair (0, 5):
+  Ring 5: Length = 2
+  Ring 6: Length = 2
+  Ring 4: Length = 6
+  Ring 2: Length = 8
+
+Pair (0, 9):
+  Ring 5: Length = 3
+  Ring 4: Length = 5
+  Ring 2: Length = 7
+  Ring 6: Length = 9
+
+Pair (0, 13):
+  Ring 4: Length = 4
+  Ring 8: Length = 6
+  Ring 6: Length = 8
+
+Pair (0, 2):
+  Ring 2: Length = 2
+  Ring 8: Length = 2
+  Ring 4: Length = 10
+  Ring 5: Length = 10
+
+Pair (0, 6):
+  Ring 6: Length = 3
+  Ring 8: Length = 3
+  Ring 4: Length = 7
+  Ring 5: Length = 9
+
+Pair (0, 10):
+  Ring 5: Length = 4
+  Ring 6: Length = 4
+  Ring 8: Length = 4
+  Ring 2: Length = 6
+
+Pair (0, 14):
+  Ring 5: Length = 5
+  Ring 8: Length = 5
+  Ring 6: Length = 7
+
+Pair (0, 3):
+  Ring 2: Length = 3
+  Ring 4: Length = 9
+
+Pair (0, 7):
+  Ring 2: Length = 4
+  Ring 4: Length = 8
+  Ring 5: Length = 8
+
+Pair (0, 11):
+  Ring 2: Length = 5
+  Ring 6: Length = 5
+  Ring 5: Length = 7
+
+Pair (0, 15):
+  Ring 5: Length = 6
+  Ring 6: Length = 6
+
+Pair (4, 0):
+  Ring 2: Length = 1
+  Ring 6: Length = 1
+  Ring 8: Length = 1
+  Ring 4: Length = 11
+  Ring 5: Length = 11
+
+Pair (4, 8):
+  Ring 1: Length = 1
+  Ring 4: Length = 1
+  Ring 8: Length = 9
+  Ring 6: Length = 11
+
+Pair (4, 12):
+  Ring 1: Length = 2
+  Ring 4: Length = 2
+  Ring 8: Length = 8
+
+Pair (4, 1):
+  Ring 2: Length = 2
+  Ring 6: Length = 2
+  Ring 8: Length = 2
+  Ring 4: Length = 10
+  Ring 5: Length = 10
+
+Pair (4, 5):
+  Ring 5: Length = 1
+  Ring 6: Length = 3
+  Ring 4: Length = 5
+  Ring 1: Length = 9
+  Ring 2: Length = 9
+
+Pair (4, 9):
+  Ring 5: Length = 2
+  Ring 4: Length = 4
+  Ring 1: Length = 8
+  Ring 2: Length = 8
+  Ring 6: Length = 10
+
+Pair (4, 13):
+  Ring 1: Length = 3
+  Ring 4: Length = 3
+  Ring 8: Length = 7
+  Ring 6: Length = 9
+
+Pair (4, 2):
+  Ring 2: Length = 3
+  Ring 8: Length = 3
+  Ring 4: Length = 9
+  Ring 5: Length = 9
+
+Pair (4, 6):
+  Ring 6: Length = 4
+  Ring 8: Length = 4
+  Ring 4: Length = 6
+  Ring 5: Length = 8
+
+Pair (4, 10):
+  Ring 5: Length = 3
+  Ring 6: Length = 5
+  Ring 8: Length = 5
+  Ring 1: Length = 7
+  Ring 2: Length = 7
+
+Pair (4, 14):
+  Ring 1: Length = 4
+  Ring 5: Length = 4
+  Ring 8: Length = 6
+  Ring 6: Length = 8
+
+Pair (4, 3):
+  Ring 2: Length = 4
+  Ring 4: Length = 8
+
+Pair (4, 7):
+  Ring 2: Length = 5
+  Ring 4: Length = 7
+  Ring 5: Length = 7
+
+Pair (4, 11):
+  Ring 1: Length = 6
+  Ring 2: Length = 6
+  Ring 5: Length = 6
+  Ring 6: Length = 6
+
+Pair (4, 15):
+  Ring 1: Length = 5
+  Ring 5: Length = 5
+  Ring 6: Length = 7
+
+Pair (8, 0):
+  Ring 6: Length = 2
+  Ring 8: Length = 2
+  Ring 4: Length = 10
+
+Pair (8, 4):
+  Ring 6: Length = 1
+  Ring 8: Length = 1
+  Ring 1: Length = 9
+  Ring 4: Length = 11
+
+Pair (8, 12):
+  Ring 1: Length = 1
+  Ring 4: Length = 1
+  Ring 7: Length = 3
+  Ring 8: Length = 9
+  Ring 0: Length = 11
+
+Pair (8, 1):
+  Ring 6: Length = 3
+  Ring 8: Length = 3
+  Ring 4: Length = 9
+
+Pair (8, 5):
+  Ring 4: Length = 4
+  Ring 6: Length = 4
+  Ring 1: Length = 8
+
+Pair (8, 9):
+  Ring 0: Length = 1
+  Ring 7: Length = 1
+  Ring 4: Length = 3
+  Ring 1: Length = 7
+  Ring 6: Length = 11
+
+Pair (8, 13):
+  Ring 1: Length = 2
+  Ring 4: Length = 2
+  Ring 7: Length = 2
+  Ring 8: Length = 8
+  Ring 0: Length = 10
+  Ring 6: Length = 10
+
+Pair (8, 2):
+  Ring 0: Length = 4
+  Ring 8: Length = 4
+  Ring 4: Length = 8
+
+Pair (8, 6):
+  Ring 0: Length = 3
+  Ring 4: Length = 5
+  Ring 6: Length = 5
+  Ring 8: Length = 5
+
+Pair (8, 10):
+  Ring 0: Length = 2
+  Ring 1: Length = 6
+  Ring 6: Length = 6
+  Ring 8: Length = 6
+
+Pair (8, 14):
+  Ring 1: Length = 3
+  Ring 8: Length = 7
+  Ring 0: Length = 9
+  Ring 6: Length = 9
+
+Pair (8, 3):
+  Ring 0: Length = 5
+  Ring 4: Length = 7
+
+Pair (8, 7):
+  Ring 0: Length = 6
+  Ring 4: Length = 6
+
+Pair (8, 11):
+  Ring 1: Length = 5
+  Ring 0: Length = 7
+  Ring 6: Length = 7
+
+Pair (8, 15):
+  Ring 1: Length = 4
+  Ring 0: Length = 8
+  Ring 6: Length = 8
+
+Pair (12, 0):
+  Ring 8: Length = 3
+  Ring 4: Length = 9
+
+Pair (12, 4):
+  Ring 8: Length = 2
+  Ring 1: Length = 8
+  Ring 4: Length = 10
+
+Pair (12, 8):
+  Ring 0: Length = 1
+  Ring 7: Length = 1
+  Ring 8: Length = 1
+  Ring 1: Length = 9
+  Ring 4: Length = 11
+
+Pair (12, 1):
+  Ring 8: Length = 4
+  Ring 4: Length = 8
+
+Pair (12, 5):
+  Ring 4: Length = 3
+  Ring 1: Length = 7
+
+Pair (12, 9):
+  Ring 0: Length = 2
+  Ring 4: Length = 2
+  Ring 7: Length = 2
+  Ring 1: Length = 6
+
+Pair (12, 13):
+  Ring 1: Length = 1
+  Ring 4: Length = 1
+  Ring 7: Length = 3
+  Ring 8: Length = 9
+  Ring 0: Length = 11
+
+Pair (12, 2):
+  Ring 0: Length = 5
+  Ring 8: Length = 5
+  Ring 4: Length = 7
+
+Pair (12, 6):
+  Ring 0: Length = 4
+  Ring 4: Length = 4
+  Ring 8: Length = 6
+
+Pair (12, 10):
+  Ring 0: Length = 3
+  Ring 1: Length = 5
+  Ring 8: Length = 7
+
+Pair (12, 14):
+  Ring 1: Length = 2
+  Ring 8: Length = 8
+  Ring 0: Length = 10
+
+Pair (12, 3):
+  Ring 0: Length = 6
+  Ring 4: Length = 6
+
+Pair (12, 7):
+  Ring 4: Length = 5
+  Ring 0: Length = 7
+
+Pair (12, 11):
+  Ring 1: Length = 4
+  Ring 0: Length = 8
+
+Pair (12, 15):
+  Ring 1: Length = 3
+  Ring 0: Length = 9
+
+Pair (1, 0):
+  Ring 4: Length = 1
+  Ring 5: Length = 1
+  Ring 2: Length = 9
+  Ring 8: Length = 9
+  Ring 6: Length = 11
+
+Pair (1, 4):
+  Ring 4: Length = 2
+  Ring 5: Length = 2
+  Ring 2: Length = 8
+  Ring 8: Length = 8
+  Ring 6: Length = 10
+
+Pair (1, 8):
+  Ring 4: Length = 3
+  Ring 8: Length = 7
+  Ring 6: Length = 9
+
+Pair (1, 12):
+  Ring 4: Length = 4
+  Ring 8: Length = 6
+
+Pair (1, 5):
+  Ring 3: Length = 1
+  Ring 6: Length = 1
+  Ring 5: Length = 3
+  Ring 2: Length = 7
+  Ring 4: Length = 7
+
+Pair (1, 9):
+  Ring 3: Length = 2
+  Ring 5: Length = 4
+  Ring 2: Length = 6
+  Ring 4: Length = 6
+  Ring 6: Length = 8
+
+Pair (1, 13):
+  Ring 3: Length = 3
+  Ring 4: Length = 5
+  Ring 8: Length = 5
+  Ring 6: Length = 7
+
+Pair (1, 2):
+  Ring 2: Length = 1
+  Ring 8: Length = 1
+  Ring 3: Length = 9
+  Ring 4: Length = 11
+  Ring 5: Length = 11
+
+Pair (1, 6):
+  Ring 6: Length = 2
+  Ring 8: Length = 2
+  Ring 4: Length = 8
+  Ring 5: Length = 10
+
+Pair (1, 10):
+  Ring 6: Length = 3
+  Ring 8: Length = 3
+  Ring 2: Length = 5
+  Ring 3: Length = 5
+  Ring 5: Length = 5
+
+Pair (1, 14):
+  Ring 3: Length = 4
+  Ring 8: Length = 4
+  Ring 5: Length = 6
+  Ring 6: Length = 6
+
+Pair (1, 3):
+  Ring 2: Length = 2
+  Ring 3: Length = 8
+  Ring 4: Length = 10
+
+Pair (1, 7):
+  Ring 2: Length = 3
+  Ring 3: Length = 7
+  Ring 4: Length = 9
+  Ring 5: Length = 9
+
+Pair (1, 11):
+  Ring 2: Length = 4
+  Ring 6: Length = 4
+  Ring 3: Length = 6
+  Ring 5: Length = 8
+
+Pair (1, 15):
+  Ring 6: Length = 5
+  Ring 5: Length = 7
+
+Pair (5, 0):
+  Ring 2: Length = 2
+  Ring 4: Length = 6
+  Ring 5: Length = 10
+  Ring 6: Length = 10
+
+Pair (5, 4):
+  Ring 1: Length = 1
+  Ring 2: Length = 1
+  Ring 4: Length = 7
+  Ring 6: Length = 9
+  Ring 5: Length = 11
+
+Pair (5, 8):
+  Ring 1: Length = 2
+  Ring 4: Length = 8
+  Ring 6: Length = 8
+
+Pair (5, 12):
+  Ring 1: Length = 3
+  Ring 4: Length = 9
+
+Pair (5, 1):
+  Ring 2: Length = 3
+  Ring 4: Length = 5
+  Ring 3: Length = 9
+  Ring 5: Length = 9
+  Ring 6: Length = 11
+
+Pair (5, 9):
+  Ring 3: Length = 1
+  Ring 5: Length = 1
+  Ring 6: Length = 7
+  Ring 1: Length = 9
+  Ring 2: Length = 9
+  Ring 4: Length = 11
+
+Pair (5, 13):
+  Ring 3: Length = 2
+  Ring 1: Length = 4
+  Ring 6: Length = 6
+  Ring 4: Length = 10
+
+Pair (5, 2):
+  Ring 2: Length = 4
+  Ring 4: Length = 4
+  Ring 3: Length = 8
+  Ring 5: Length = 8
+
+Pair (5, 6):
+  Ring 4: Length = 1
+  Ring 6: Length = 1
+  Ring 5: Length = 7
+
+Pair (5, 10):
+  Ring 5: Length = 2
+  Ring 6: Length = 2
+  Ring 3: Length = 4
+  Ring 1: Length = 8
+  Ring 2: Length = 8
+
+Pair (5, 14):
+  Ring 3: Length = 3
+  Ring 5: Length = 3
+  Ring 1: Length = 5
+  Ring 6: Length = 5
+
+Pair (5, 3):
+  Ring 4: Length = 3
+  Ring 2: Length = 5
+  Ring 3: Length = 7
+
+Pair (5, 7):
+  Ring 4: Length = 2
+  Ring 2: Length = 6
+  Ring 3: Length = 6
+  Ring 5: Length = 6
+
+Pair (5, 11):
+  Ring 6: Length = 3
+  Ring 3: Length = 5
+  Ring 5: Length = 5
+  Ring 1: Length = 7
+  Ring 2: Length = 7
+
+Pair (5, 15):
+  Ring 5: Length = 4
+  Ring 6: Length = 4
+  Ring 1: Length = 6
+
+Pair (9, 0):
+  Ring 2: Length = 3
+  Ring 6: Length = 3
+  Ring 4: Length = 7
+  Ring 5: Length = 9
+
+Pair (9, 4):
+  Ring 1: Length = 2
+  Ring 2: Length = 2
+  Ring 6: Length = 2
+  Ring 4: Length = 8
+  Ring 5: Length = 10
+
+Pair (9, 8):
+  Ring 6: Length = 1
+  Ring 1: Length = 3
+  Ring 7: Length = 3
+  Ring 4: Length = 9
+  Ring 0: Length = 11
+
+Pair (9, 12):
+  Ring 7: Length = 2
+  Ring 1: Length = 4
+  Ring 0: Length = 10
+  Ring 4: Length = 10
+
+Pair (9, 1):
+  Ring 2: Length = 4
+  Ring 6: Length = 4
+  Ring 4: Length = 6
+  Ring 3: Length = 8
+  Ring 5: Length = 8
+
+Pair (9, 5):
+  Ring 1: Length = 1
+  Ring 2: Length = 1
+  Ring 4: Length = 1
+  Ring 6: Length = 5
+  Ring 3: Length = 9
+  Ring 5: Length = 11
+
+Pair (9, 13):
+  Ring 3: Length = 1
+  Ring 7: Length = 1
+  Ring 1: Length = 5
+  Ring 0: Length = 9
+  Ring 4: Length = 11
+  Ring 6: Length = 11
+
+Pair (9, 2):
+  Ring 0: Length = 3
+  Ring 2: Length = 5
+  Ring 4: Length = 5
+  Ring 3: Length = 7
+  Ring 5: Length = 7
+
+Pair (9, 6):
+  Ring 0: Length = 2
+  Ring 4: Length = 2
+  Ring 5: Length = 6
+  Ring 6: Length = 6
+
+Pair (9, 10):
+  Ring 0: Length = 1
+  Ring 5: Length = 1
+  Ring 3: Length = 3
+  Ring 6: Length = 7
+  Ring 1: Length = 9
+  Ring 2: Length = 9
+
+Pair (9, 14):
+  Ring 3: Length = 2
+  Ring 5: Length = 2
+  Ring 1: Length = 6
+  Ring 0: Length = 8
+  Ring 6: Length = 10
+
+Pair (9, 3):
+  Ring 0: Length = 4
+  Ring 4: Length = 4
+  Ring 2: Length = 6
+  Ring 3: Length = 6
+
+Pair (9, 7):
+  Ring 4: Length = 3
+  Ring 0: Length = 5
+  Ring 3: Length = 5
+  Ring 5: Length = 5
+  Ring 2: Length = 7
+
+Pair (9, 11):
+  Ring 3: Length = 4
+  Ring 5: Length = 4
+  Ring 0: Length = 6
+  Ring 1: Length = 8
+  Ring 2: Length = 8
+  Ring 6: Length = 8
+
+Pair (9, 15):
+  Ring 5: Length = 3
+  Ring 0: Length = 7
+  Ring 1: Length = 7
+  Ring 6: Length = 9
+
+Pair (13, 0):
+  Ring 6: Length = 4
+  Ring 8: Length = 4
+  Ring 4: Length = 8
+
+Pair (13, 4):
+  Ring 6: Length = 3
+  Ring 8: Length = 3
+  Ring 1: Length = 7
+  Ring 4: Length = 9
+
+Pair (13, 8):
+  Ring 0: Length = 2
+  Ring 6: Length = 2
+  Ring 7: Length = 2
+  Ring 8: Length = 2
+  Ring 1: Length = 8
+  Ring 4: Length = 10
+
+Pair (13, 12):
+  Ring 0: Length = 1
+  Ring 7: Length = 1
+  Ring 8: Length = 1
+  Ring 1: Length = 9
+  Ring 4: Length = 11
+
+Pair (13, 1):
+  Ring 6: Length = 5
+  Ring 8: Length = 5
+  Ring 3: Length = 7
+  Ring 4: Length = 7
+
+Pair (13, 5):
+  Ring 4: Length = 2
+  Ring 1: Length = 6
+  Ring 6: Length = 6
+  Ring 3: Length = 8
+
+Pair (13, 9):
+  Ring 4: Length = 1
+  Ring 6: Length = 1
+  Ring 0: Length = 3
+  Ring 7: Length = 3
+  Ring 1: Length = 5
+  Ring 3: Length = 9
+
+Pair (13, 2):
+  Ring 0: Length = 6
+  Ring 3: Length = 6
+  Ring 4: Length = 6
+  Ring 8: Length = 6
+
+Pair (13, 6):
+  Ring 4: Length = 3
+  Ring 0: Length = 5
+  Ring 6: Length = 7
+  Ring 8: Length = 7
+
+Pair (13, 10):
+  Ring 3: Length = 2
+  Ring 0: Length = 4
+  Ring 1: Length = 4
+  Ring 6: Length = 8
+  Ring 8: Length = 8
+
+Pair (13, 14):
+  Ring 1: Length = 1
+  Ring 3: Length = 1
+  Ring 8: Length = 9
+  Ring 0: Length = 11
+  Ring 6: Length = 11
+
+Pair (13, 3):
+  Ring 3: Length = 5
+  Ring 4: Length = 5
+  Ring 0: Length = 7
+
+Pair (13, 7):
+  Ring 3: Length = 4
+  Ring 4: Length = 4
+  Ring 0: Length = 8
+
+Pair (13, 11):
+  Ring 1: Length = 3
+  Ring 3: Length = 3
+  Ring 0: Length = 9
+  Ring 6: Length = 9
+
+Pair (13, 15):
+  Ring 1: Length = 2
+  Ring 0: Length = 10
+  Ring 6: Length = 10
+
+Pair (2, 0):
+  Ring 4: Length = 2
+  Ring 5: Length = 2
+  Ring 2: Length = 8
+  Ring 8: Length = 8
+
+Pair (2, 4):
+  Ring 4: Length = 3
+  Ring 5: Length = 3
+  Ring 2: Length = 7
+  Ring 8: Length = 7
+
+Pair (2, 8):
+  Ring 4: Length = 4
+  Ring 8: Length = 6
+  Ring 0: Length = 8
+
+Pair (2, 12):
+  Ring 4: Length = 5
+  Ring 8: Length = 5
+  Ring 0: Length = 7
+
+Pair (2, 1):
+  Ring 3: Length = 1
+  Ring 4: Length = 1
+  Ring 5: Length = 1
+  Ring 2: Length = 9
+  Ring 8: Length = 9
+
+Pair (2, 5):
+  Ring 3: Length = 2
+  Ring 5: Length = 4
+  Ring 2: Length = 6
+  Ring 4: Length = 8
+
+Pair (2, 9):
+  Ring 3: Length = 3
+  Ring 2: Length = 5
+  Ring 5: Length = 5
+  Ring 4: Length = 7
+  Ring 0: Length = 9
+
+Pair (2, 13):
+  Ring 3: Length = 4
+  Ring 8: Length = 4
+  Ring 0: Length = 6
+  Ring 4: Length = 6
+
+Pair (2, 6):
+  Ring 8: Length = 1
+  Ring 4: Length = 9
+  Ring 0: Length = 11
+  Ring 5: Length = 11
+
+Pair (2, 10):
+  Ring 8: Length = 2
+  Ring 2: Length = 4
+  Ring 3: Length = 6
+  Ring 5: Length = 6
+  Ring 0: Length = 10
+
+Pair (2, 14):
+  Ring 8: Length = 3
+  Ring 0: Length = 5
+  Ring 3: Length = 5
+  Ring 5: Length = 7
+
+Pair (2, 3):
+  Ring 0: Length = 1
+  Ring 2: Length = 1
+  Ring 3: Length = 9
+  Ring 4: Length = 11
+
+Pair (2, 7):
+  Ring 0: Length = 2
+  Ring 2: Length = 2
+  Ring 3: Length = 8
+  Ring 4: Length = 10
+  Ring 5: Length = 10
+
+Pair (2, 11):
+  Ring 0: Length = 3
+  Ring 2: Length = 3
+  Ring 3: Length = 7
+  Ring 5: Length = 9
+
+Pair (2, 15):
+  Ring 0: Length = 4
+  Ring 5: Length = 8
+
+Pair (6, 0):
+  Ring 5: Length = 3
+  Ring 4: Length = 5
+  Ring 8: Length = 7
+  Ring 6: Length = 9
+
+Pair (6, 4):
+  Ring 5: Length = 4
+  Ring 4: Length = 6
+  Ring 8: Length = 6
+  Ring 6: Length = 8
+
+Pair (6, 8):
+  Ring 8: Length = 5
+  Ring 4: Length = 7
+  Ring 6: Length = 7
+  Ring 0: Length = 9
+
+Pair (6, 12):
+  Ring 8: Length = 4
+  Ring 0: Length = 8
+  Ring 4: Length = 8
+
+Pair (6, 1):
+  Ring 5: Length = 2
+  Ring 4: Length = 4
+  Ring 8: Length = 8
+  Ring 6: Length = 10
+
+Pair (6, 5):
+  Ring 5: Length = 5
+  Ring 4: Length = 11
+  Ring 6: Length = 11
+
+Pair (6, 9):
+  Ring 5: Length = 6
+  Ring 6: Length = 6
+  Ring 0: Length = 10
+  Ring 4: Length = 10
+
+Pair (6, 13):
+  Ring 8: Length = 3
+  Ring 6: Length = 5
+  Ring 0: Length = 7
+  Ring 4: Length = 9
+
+Pair (6, 2):
+  Ring 0: Length = 1
+  Ring 5: Length = 1
+  Ring 4: Length = 3
+  Ring 8: Length = 9
+
+Pair (6, 10):
+  Ring 6: Length = 1
+  Ring 8: Length = 1
+  Ring 5: Length = 7
+  Ring 0: Length = 11
+
+Pair (6, 14):
+  Ring 8: Length = 2
+  Ring 6: Length = 4
+  Ring 0: Length = 6
+  Ring 5: Length = 8
+
+Pair (6, 3):
+  Ring 0: Length = 2
+  Ring 4: Length = 2
+
+Pair (6, 7):
+  Ring 4: Length = 1
+  Ring 0: Length = 3
+  Ring 5: Length = 11
+
+Pair (6, 11):
+  Ring 6: Length = 2
+  Ring 0: Length = 4
+  Ring 5: Length = 10
+
+Pair (6, 15):
+  Ring 6: Length = 3
+  Ring 0: Length = 5
+  Ring 5: Length = 9
+
+Pair (10, 0):
+  Ring 2: Length = 4
+  Ring 8: Length = 6
+  Ring 5: Length = 8
+  Ring 6: Length = 8
+
+Pair (10, 4):
+  Ring 1: Length = 3
+  Ring 2: Length = 3
+  Ring 8: Length = 5
+  Ring 6: Length = 7
+  Ring 5: Length = 9
+
+Pair (10, 8):
+  Ring 1: Length = 4
+  Ring 8: Length = 4
+  Ring 6: Length = 6
+  Ring 0: Length = 10
+
+Pair (10, 12):
+  Ring 8: Length = 3
+  Ring 1: Length = 5
+  Ring 0: Length = 9
+
+Pair (10, 1):
+  Ring 2: Length = 5
+  Ring 3: Length = 5
+  Ring 5: Length = 7
+  Ring 8: Length = 7
+  Ring 6: Length = 9
+
+Pair (10, 5):
+  Ring 1: Length = 2
+  Ring 2: Length = 2
+  Ring 3: Length = 6
+  Ring 5: Length = 10
+  Ring 6: Length = 10
+
+Pair (10, 9):
+  Ring 1: Length = 1
+  Ring 2: Length = 1
+  Ring 6: Length = 5
+  Ring 3: Length = 7
+  Ring 0: Length = 11
+  Ring 5: Length = 11
+
+Pair (10, 13):
+  Ring 8: Length = 2
+  Ring 6: Length = 4
+  Ring 1: Length = 6
+  Ring 0: Length = 8
+  Ring 3: Length = 8
+
+Pair (10, 2):
+  Ring 0: Length = 2
+  Ring 3: Length = 4
+  Ring 2: Length = 6
+  Ring 5: Length = 6
+  Ring 8: Length = 8
+
+Pair (10, 6):
+  Ring 0: Length = 1
+  Ring 5: Length = 5
+  Ring 8: Length = 9
+  Ring 6: Length = 11
+
+Pair (10, 14):
+  Ring 5: Length = 1
+  Ring 8: Length = 1
+  Ring 6: Length = 3
+  Ring 0: Length = 7
+  Ring 1: Length = 7
+  Ring 3: Length = 9
+
+Pair (10, 3):
+  Ring 0: Length = 3
+  Ring 3: Length = 3
+  Ring 2: Length = 7
+
+Pair (10, 7):
+  Ring 3: Length = 2
+  Ring 0: Length = 4
+  Ring 5: Length = 4
+  Ring 2: Length = 8
+
+Pair (10, 11):
+  Ring 3: Length = 1
+  Ring 6: Length = 1
+  Ring 5: Length = 3
+  Ring 0: Length = 5
+  Ring 1: Length = 9
+  Ring 2: Length = 9
+
+Pair (10, 15):
+  Ring 5: Length = 2
+  Ring 6: Length = 2
+  Ring 0: Length = 6
+  Ring 1: Length = 8
+
+Pair (14, 0):
+  Ring 6: Length = 5
+  Ring 8: Length = 5
+  Ring 5: Length = 7
+
+Pair (14, 4):
+  Ring 6: Length = 4
+  Ring 8: Length = 4
+  Ring 1: Length = 6
+  Ring 5: Length = 8
+
+Pair (14, 8):
+  Ring 0: Length = 3
+  Ring 6: Length = 3
+  Ring 8: Length = 3
+  Ring 1: Length = 7
+
+Pair (14, 12):
+  Ring 0: Length = 2
+  Ring 8: Length = 2
+  Ring 1: Length = 8
+
+Pair (14, 1):
+  Ring 3: Length = 6
+  Ring 5: Length = 6
+  Ring 6: Length = 6
+  Ring 8: Length = 6
+
+Pair (14, 5):
+  Ring 1: Length = 5
+  Ring 3: Length = 7
+  Ring 6: Length = 7
+  Ring 5: Length = 9
+
+Pair (14, 9):
+  Ring 6: Length = 2
+  Ring 0: Length = 4
+  Ring 1: Length = 4
+  Ring 3: Length = 8
+  Ring 5: Length = 10
+
+Pair (14, 13):
+  Ring 0: Length = 1
+  Ring 6: Length = 1
+  Ring 8: Length = 1
+  Ring 1: Length = 9
+  Ring 3: Length = 9
+
+Pair (14, 2):
+  Ring 3: Length = 5
+  Ring 5: Length = 5
+  Ring 0: Length = 7
+  Ring 8: Length = 7
+
+Pair (14, 6):
+  Ring 5: Length = 4
+  Ring 0: Length = 6
+  Ring 6: Length = 8
+  Ring 8: Length = 8
+
+Pair (14, 10):
+  Ring 3: Length = 1
+  Ring 1: Length = 3
+  Ring 0: Length = 5
+  Ring 6: Length = 9
+  Ring 8: Length = 9
+  Ring 5: Length = 11
+
+Pair (14, 3):
+  Ring 3: Length = 4
+  Ring 0: Length = 8
+
+Pair (14, 7):
+  Ring 3: Length = 3
+  Ring 5: Length = 3
+  Ring 0: Length = 9
+
+Pair (14, 11):
+  Ring 1: Length = 2
+  Ring 3: Length = 2
+  Ring 5: Length = 2
+  Ring 0: Length = 10
+  Ring 6: Length = 10
+
+Pair (14, 15):
+  Ring 1: Length = 1
+  Ring 5: Length = 1
+  Ring 0: Length = 11
+  Ring 6: Length = 11
+
+Pair (3, 0):
+  Ring 4: Length = 3
+  Ring 2: Length = 7
+
+Pair (3, 4):
+  Ring 4: Length = 4
+  Ring 2: Length = 6
+
+Pair (3, 8):
+  Ring 4: Length = 5
+  Ring 0: Length = 7
+
+Pair (3, 12):
+  Ring 0: Length = 6
+  Ring 4: Length = 6
+
+Pair (3, 1):
+  Ring 3: Length = 2
+  Ring 4: Length = 2
+  Ring 2: Length = 8
+
+Pair (3, 5):
+  Ring 3: Length = 3
+  Ring 2: Length = 5
+  Ring 4: Length = 9
+
+Pair (3, 9):
+  Ring 2: Length = 4
+  Ring 3: Length = 4
+  Ring 0: Length = 8
+  Ring 4: Length = 8
+
+Pair (3, 13):
+  Ring 0: Length = 5
+  Ring 3: Length = 5
+  Ring 4: Length = 7
+
+Pair (3, 2):
+  Ring 3: Length = 1
+  Ring 4: Length = 1
+  Ring 2: Length = 9
+  Ring 0: Length = 11
+
+Pair (3, 6):
+  Ring 0: Length = 10
+  Ring 4: Length = 10
+
+Pair (3, 10):
+  Ring 2: Length = 3
+  Ring 3: Length = 7
+  Ring 0: Length = 9
+
+Pair (3, 14):
+  Ring 0: Length = 4
+  Ring 3: Length = 6
+
+Pair (3, 7):
+  Ring 0: Length = 1
+  Ring 2: Length = 1
+  Ring 3: Length = 9
+  Ring 4: Length = 11
+
+Pair (3, 11):
+  Ring 0: Length = 2
+  Ring 2: Length = 2
+  Ring 3: Length = 8
+
+Pair (3, 15):
+  Ring 0: Length = 3
+
+Pair (7, 0):
+  Ring 4: Length = 4
+  Ring 5: Length = 4
+  Ring 2: Length = 6
+
+Pair (7, 4):
+  Ring 2: Length = 5
+  Ring 4: Length = 5
+  Ring 5: Length = 5
+
+Pair (7, 8):
+  Ring 0: Length = 6
+  Ring 4: Length = 6
+
+Pair (7, 12):
+  Ring 0: Length = 5
+  Ring 4: Length = 7
+
+Pair (7, 1):
+  Ring 3: Length = 3
+  Ring 4: Length = 3
+  Ring 5: Length = 3
+  Ring 2: Length = 7
+
+Pair (7, 5):
+  Ring 2: Length = 4
+  Ring 3: Length = 4
+  Ring 5: Length = 6
+  Ring 4: Length = 10
+
+Pair (7, 9):
+  Ring 2: Length = 3
+  Ring 3: Length = 5
+  Ring 0: Length = 7
+  Ring 5: Length = 7
+  Ring 4: Length = 9
+
+Pair (7, 13):
+  Ring 0: Length = 4
+  Ring 3: Length = 6
+  Ring 4: Length = 8
+
+Pair (7, 2):
+  Ring 3: Length = 2
+  Ring 4: Length = 2
+  Ring 5: Length = 2
+  Ring 2: Length = 8
+  Ring 0: Length = 10
+
+Pair (7, 6):
+  Ring 5: Length = 1
+  Ring 0: Length = 9
+  Ring 4: Length = 11
+
+Pair (7, 10):
+  Ring 2: Length = 2
+  Ring 0: Length = 8
+  Ring 3: Length = 8
+  Ring 5: Length = 8
+
+Pair (7, 14):
+  Ring 0: Length = 3
+  Ring 3: Length = 7
+  Ring 5: Length = 9
+
+Pair (7, 3):
+  Ring 3: Length = 1
+  Ring 4: Length = 1
+  Ring 2: Length = 9
+  Ring 0: Length = 11
+
+Pair (7, 11):
+  Ring 0: Length = 1
+  Ring 2: Length = 1
+  Ring 3: Length = 9
+  Ring 5: Length = 11
+
+Pair (7, 15):
+  Ring 0: Length = 2
+  Ring 5: Length = 10
+
+Pair (11, 0):
+  Ring 2: Length = 5
+  Ring 5: Length = 5
+  Ring 6: Length = 7
+
+Pair (11, 4):
+  Ring 1: Length = 4
+  Ring 2: Length = 4
+  Ring 5: Length = 6
+  Ring 6: Length = 6
+
+Pair (11, 8):
+  Ring 0: Length = 5
+  Ring 1: Length = 5
+  Ring 6: Length = 5
+
+Pair (11, 12):
+  Ring 0: Length = 4
+  Ring 1: Length = 6
+
+Pair (11, 1):
+  Ring 3: Length = 4
+  Ring 5: Length = 4
+  Ring 2: Length = 6
+  Ring 6: Length = 8
+
+Pair (11, 5):
+  Ring 1: Length = 3
+  Ring 2: Length = 3
+  Ring 3: Length = 5
+  Ring 5: Length = 7
+  Ring 6: Length = 9
+
+Pair (11, 9):
+  Ring 1: Length = 2
+  Ring 2: Length = 2
+  Ring 6: Length = 4
+  Ring 0: Length = 6
+  Ring 3: Length = 6
+  Ring 5: Length = 8
+
+Pair (11, 13):
+  Ring 0: Length = 3
+  Ring 6: Length = 3
+  Ring 1: Length = 7
+  Ring 3: Length = 7
+
+Pair (11, 2):
+  Ring 3: Length = 3
+  Ring 5: Length = 3
+  Ring 2: Length = 7
+  Ring 0: Length = 9
+
+Pair (11, 6):
+  Ring 5: Length = 2
+  Ring 0: Length = 8
+  Ring 6: Length = 10
+
+Pair (11, 10):
+  Ring 1: Length = 1
+  Ring 2: Length = 1
+  Ring 0: Length = 7
+  Ring 3: Length = 9
+  Ring 5: Length = 9
+  Ring 6: Length = 11
+
+Pair (11, 14):
+  Ring 0: Length = 2
+  Ring 6: Length = 2
+  Ring 1: Length = 8
+  Ring 3: Length = 8
+  Ring 5: Length = 10
+
+Pair (11, 3):
+  Ring 3: Length = 2
+  Ring 2: Length = 8
+  Ring 0: Length = 10
+
+Pair (11, 7):
+  Ring 3: Length = 1
+  Ring 5: Length = 1
+  Ring 2: Length = 9
+  Ring 0: Length = 11
+
+Pair (11, 15):
+  Ring 0: Length = 1
+  Ring 6: Length = 1
+  Ring 1: Length = 9
+  Ring 5: Length = 11
+
+Pair (15, 0):
+  Ring 5: Length = 6
+  Ring 6: Length = 6
+
+Pair (15, 4):
+  Ring 1: Length = 5
+  Ring 6: Length = 5
+  Ring 5: Length = 7
+
+Pair (15, 8):
+  Ring 0: Length = 4
+  Ring 6: Length = 4
+  Ring 1: Length = 6
+
+Pair (15, 12):
+  Ring 0: Length = 3
+  Ring 1: Length = 7
+
+Pair (15, 1):
+  Ring 5: Length = 5
+  Ring 6: Length = 7
+
+Pair (15, 5):
+  Ring 1: Length = 4
+  Ring 5: Length = 8
+  Ring 6: Length = 8
+
+Pair (15, 9):
+  Ring 1: Length = 3
+  Ring 6: Length = 3
+  Ring 0: Length = 5
+  Ring 5: Length = 9
+
+Pair (15, 13):
+  Ring 0: Length = 2
+  Ring 6: Length = 2
+  Ring 1: Length = 8
+
+Pair (15, 2):
+  Ring 5: Length = 4
+  Ring 0: Length = 8
+
+Pair (15, 6):
+  Ring 5: Length = 3
+  Ring 0: Length = 7
+  Ring 6: Length = 9
+
+Pair (15, 10):
+  Ring 1: Length = 2
+  Ring 0: Length = 6
+  Ring 5: Length = 10
+  Ring 6: Length = 10
+
+Pair (15, 14):
+  Ring 0: Length = 1
+  Ring 6: Length = 1
+  Ring 1: Length = 9
+  Ring 5: Length = 11
+
+Pair (15, 3):
+  Ring 0: Length = 9
+
+Pair (15, 7):
+  Ring 5: Length = 2
+  Ring 0: Length = 10
+
+Pair (15, 11):
+  Ring 1: Length = 1
+  Ring 5: Length = 1
+  Ring 0: Length = 11
+  Ring 6: Length = 11
+

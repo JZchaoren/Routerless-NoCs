@@ -124,6 +124,10 @@ Ruby.define_options(parser)
 
 args = parser.parse_args()
 
+with open("./m5out/statistic.txt", "a") as file:
+    file.write("num_cpus="+str(args.num_cpus) + "\n")
+    file.write("sim_cycles="+str(args.sim_cycles) + "\n")
+
 cpus = [
     GarnetSyntheticTraffic(
         num_packets_max=args.num_packets_max,
@@ -173,7 +177,7 @@ root = Root(full_system=False, system=system)
 root.system.mem_mode = "timing"
 
 # Not much point in this being higher than the L1 latency
-m5.ticks.setGlobalFrequency("1ps")
+m5.ticks.setGlobalFrequency("20ps")
 
 # instantiate configuration
 m5.instantiate()

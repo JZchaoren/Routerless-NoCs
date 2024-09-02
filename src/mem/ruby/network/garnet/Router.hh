@@ -35,6 +35,10 @@
 #include <iostream>
 #include <memory>
 #include <vector>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <utility>
 
 #include "mem/ruby/common/Consumer.hh"
 #include "mem/ruby/common/NetDest.hh"
@@ -66,6 +70,12 @@ class OutputUnit;
 class Router : public BasicRouter, public Consumer
 {
   public:
+    struct RingRoutingEntry {
+      int src;
+      int dst;
+      std::vector<std::pair<int, int>> ring_distance_pairs; // (ring_id, distance) pairs
+    };
+
     typedef GarnetRouterParams Params;
     Router(const Params &p);
 
@@ -96,6 +106,80 @@ class Router : public BasicRouter, public Consumer
     }
 
     GarnetNetwork* get_net_ptr()                    { return m_network_ptr; }
+
+    void init_ring_routing_table(int routing_algorithm){
+      std::string filename;
+      // Modify the path to your own ABSOLUTE path
+      switch (routing_algorithm)
+      {
+      case IMR_:
+        filename = "/home/s2022011336/gem5/Experiment Data/IMR/routing_table.txt";
+        break;
+      case ROUTERLESS_:
+        filename = "/home/s2022011336/gem5/Experiment Data/Routerless/routing_table.txt";
+        break;
+      default:
+        return;
+      }
+      std::ifstream file(filename);
+      std::string line;
+
+      if (!file.is_open()) {
+          std::cerr << "Unable to open file: " << filename << std::endl;
+          return;
+      }
+
+      RingRoutingEntry entry;
+      bool readingEntry = false;
+
+      while (std::getline(file, line)) {
+          if (line.empty()) {
+              continue; // 跳过空行
+          }
+
+          std::istringstream iss(line);
+          std::string word;
+
+          // 检查是否是 Pair 开头的行
+          if (line.find("Pair") != std::string::npos) {
+              // 检查上一个 entry 是否符合条件并保存
+              if (readingEntry) {
+                  ringRoutingTable.push_back(entry);
+              }
+
+              // 重置当前 entry
+              entry.ring_distance_pairs.clear();
+              readingEntry = false;
+
+              // 解析 src 和 dst
+              char discard;
+              if (iss >> word >> discard >> entry.src >> discard >> entry.dst >> discard) {
+                  // 检查 src 是否等于 m_id
+                  if (entry.src == m_id) {
+                      readingEntry = true; // 只处理符合条件的条目
+                  }
+              }
+          }
+          // 读取 Ring 和 Length 对
+          else if (readingEntry && line.find("Ring") != std::string::npos) {
+              int ring_id, length;
+              char discard;
+              if (iss >> word >> ring_id >> discard >> word >> discard >> length) {
+                  entry.ring_distance_pairs.emplace_back(ring_id, length);
+              }
+          }
+      }
+
+      // 保存最后一个 entry（如果符合条件）
+      if (readingEntry) {
+          ringRoutingTable.push_back(entry);
+      }
+
+      file.close();
+      return;
+    }
+
+    std::vector<RingRoutingEntry>& get_ring_routing_table() { return ringRoutingTable; }
 
     InputUnit*
     getInputUnit(unsigned port)
@@ -151,6 +235,7 @@ class Router : public BasicRouter, public Consumer
     RoutingUnit routingUnit;
     SwitchAllocator switchAllocator;
     CrossbarSwitch crossbarSwitch;
+    std::vector<RingRoutingEntry> ringRoutingTable;
 
     std::vector<std::shared_ptr<InputUnit>> m_input_unit;
     std::vector<std::shared_ptr<OutputUnit>> m_output_unit;

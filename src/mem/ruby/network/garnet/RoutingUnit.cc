@@ -35,6 +35,7 @@
 #include "debug/RubyNetwork.hh"
 #include "mem/ruby/network/garnet/InputUnit.hh"
 #include "mem/ruby/network/garnet/Router.hh"
+#include "mem/ruby/network/garnet/OutputUnit.hh"
 #include "mem/ruby/slicc_interface/Message.hh"
 
 namespace gem5
@@ -193,6 +194,11 @@ RoutingUnit::outportCompute(RouteInfo route, int inport,
         // any custom algorithm
         case CUSTOM_: outport =
             outportComputeCustom(route, inport, inport_dirn); break;
+        case RING_: outport =
+            outportComputeRing(route, inport, inport_dirn); break;
+        case IMR_:
+        case ROUTERLESS_:
+            outport = outportComputeRouterless(route, inport, inport_dirn); break;
         default: outport =
             lookupRoutingTable(route.vnet, route.net_dest); break;
     }
@@ -258,6 +264,76 @@ RoutingUnit::outportComputeXY(RouteInfo route,
     }
 
     return m_outports_dirn2idx[outport_dirn];
+}
+
+int RoutingUnit::outportComputeRing(RouteInfo route, int inport, PortDirection inport_dirn) {
+    int num_routers = m_router->get_net_ptr()->getNumRouters();
+    int my_id = m_router->get_id();
+    int dest_id = route.dest_router;
+
+    int clockwise_hops = (dest_id - my_id + num_routers) % num_routers;
+    int counter_clockwise_hops = (my_id - dest_id + num_routers) % num_routers;
+
+    PortDirection outport_dirn = "Unknown";
+    if (clockwise_hops <= counter_clockwise_hops) {
+        outport_dirn = "Src";  // 顺时针方向
+    } else {
+        outport_dirn = "End";  // 逆时针方向
+    }
+
+    return m_outports_dirn2idx[outport_dirn];
+}
+
+int
+RoutingUnit::outportComputeRouterless(RouteInfo route, int inport,
+                                      PortDirection inport_dirn)
+{
+    PortDirection outport_dirn = "Unknown";
+    if (inport_dirn == "Local") {
+        // 如果是在这个node inject的话，需要根据ring routing table找到对应的输出端口
+        auto &ring_routing_table = m_router->get_ring_routing_table();
+        for (auto &entry : ring_routing_table) {
+            if (entry.dst == route.dest_router) {
+                for (auto &pair : entry.ring_distance_pairs) {
+                    int ring_id = pair.first;
+                    std::string ring_name = "ring" + std::to_string(ring_id);
+                    for (auto &it : m_outports_dirn2idx) {
+                        if (it.first.find(ring_name) != std::string::npos) {
+                            outport_dirn = it.first;
+                            int outport = it.second;
+                            // 这里需要检查对应的环是否idle
+                            if (m_router->getOutputUnit(outport)->has_free_vc(route.vnet)) {
+                                return outport;
+                            } else {
+                                continue;
+                            }
+                        }
+                    }
+                }
+                // 如果找不到对应的输出端口，随机选择一个
+                int ring_id = entry.ring_distance_pairs[rand() % entry.ring_distance_pairs.size()].first;
+                std::string ring_name = "ring" + std::to_string(ring_id);
+                for (auto &it : m_outports_dirn2idx) {
+                    if (it.first.find(ring_name) != std::string::npos) {
+                        return it.second;
+                    }
+                }
+            }
+        }
+        // 寄了
+        panic("Routerless Routing: No output port found for input port %s", inport_dirn);
+
+    } else {
+        // 如果不是在这个node inject的话，直接传到输入端口所在环的对应输出端口即可
+        if (m_outports_dirn2idx.find(inport_dirn) != m_outports_dirn2idx.end()) {
+            return m_outports_dirn2idx[inport_dirn];
+        } else {
+            for (auto &it : m_outports_dirn2idx){
+                std::cout << it.first << " " << it.second << std::endl;
+            }
+            panic("Routerless Routing: No output port found for input port %s", inport_dirn);
+        }
+    }
 }
 
 // Template for implementing custom routing algorithm
